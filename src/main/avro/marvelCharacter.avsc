@@ -1,0 +1,39 @@
+{
+  "type": "record",
+  "namespace": "com.character.marvel.model",
+  "name" : "MarvelCharacter",
+  "fields": [
+    {
+      "name" : "id" ,
+      "type": "long"
+    },
+    {
+      "name" : "name" ,
+      "type": [
+        "null",
+        {
+          "type": "string",
+          "avro.java.string": "String"
+        }
+      ]
+    },
+    {
+      "name" : "description" ,
+      "type": [
+        "null",
+        {
+          "type": "string",
+          "avro.java.string": "String"
+        }
+      ]
+    },
+    {
+      "name": "thumbnail",
+      "type": [
+        "null",
+        "Thumbnail"
+      ]
+    }
+
+  ]
+}

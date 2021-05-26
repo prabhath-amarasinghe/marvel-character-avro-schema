@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "namespace": "com.character.marvel.model",
+  "name": "Thumbnail",
+  "fields": [
+    {
+      "name": "path",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    },
+    {
+      "name": "extension",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    }
+  ]
+}
