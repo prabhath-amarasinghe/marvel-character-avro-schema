@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.character.marvel</groupId>
-    <artifactId>marvel-avro-schema</artifactId>
+    <artifactId>marvel-character-avro-schema</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
